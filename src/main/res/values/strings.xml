@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mike Rozoff Keyboard</string>
+    <string name="addon_name">Mike Rozoff Layout</string>
+    <string name="addon_description">A SwiftKey-inspired keyboard layout with 6 rows including arrow keys and extended symbols</string>
+</resources>
