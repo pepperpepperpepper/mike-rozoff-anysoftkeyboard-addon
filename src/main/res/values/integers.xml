@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Functional key codes from AnySoftKeyboard API -->
+    <integer name="key_code_disabled">0</integer>
+    <integer name="key_code_space">32</integer>
+    <integer name="key_code_enter">10</integer>
+    <integer name="key_code_delete">-5</integer>
+    <integer name="key_code_voice_input">-4</integer>
+    <integer name="key_code_quick_text">-10</integer>
+    <integer name="key_code_quick_text_popup">-102</integer>
+    <integer name="key_code_shift">-1</integer>
+    <integer name="key_code_mode_symbols">-2</integer>
+    <integer name="key_code_mode_alphabet">-99</integer>
+    <integer name="key_code_arrow_left">-20</integer>
+    <integer name="key_code_arrow_right">-21</integer>
+    <integer name="key_code_arrow_up">-22</integer>
+    <integer name="key_code_arrow_down">-23</integer>
+    
+    <!-- Keyboard dimension integers (for compatibility) -->
+    <integer name="key_height">50</integer>
+    <integer name="key_horizontal_gap">2</integer>
+    <integer name="key_vertical_gap">2</integer>
+    
+
+</resources>
