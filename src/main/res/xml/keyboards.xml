@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboards>
+    <Keyboard nameResId="@string/keyboard_name" 
+        iconResId="@mipmap/ic_launcher" 
+        layoutResId="@xml/mike_rozoff_layout" 
+        id="c5b8c8a0-7b8f-4b8e-8b8f-7b8f4b8e8b8f" 
+        defaultDictionaryLocale="en" 
+        description="@string/addon_description" 
+        index="1"/>
+</Keyboards>

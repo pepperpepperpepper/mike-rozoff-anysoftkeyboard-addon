@@ -3,4 +3,6 @@
     <string name="app_name">Mike Rozoff Keyboard</string>
     <string name="addon_name">Mike Rozoff Layout</string>
     <string name="addon_description">A SwiftKey-inspired keyboard layout with 6 rows including arrow keys and extended symbols</string>
+    <string name="author">Mike Rozoff</string>
+    <string name="keyboard_name">Mike Rozoff Layout</string>
 </resources>

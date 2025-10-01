@@ -2,12 +2,12 @@
 <keyboard-addon xmlns:android="http://schemas.android.com/apk/res/android"
     android:name="@string/addon_name"
     android:description="@string/addon_description"
-    android:author="Mike Rozoff"
-    android:version="1.0">
+    android:author="@string/author"
+    android:version="1">
     
     <keyboard
         android:name="@string/addon_name"
-        android:keyboardXml="@xml/mike_rozoff_layout"
+        android:keyboardLayout="@xml/mike_rozoff_layout"
         android:icon="@drawable/ic_keyboard" />
         
 </keyboard-addon>
