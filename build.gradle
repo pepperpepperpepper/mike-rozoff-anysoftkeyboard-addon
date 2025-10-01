@@ -28,6 +28,6 @@ android {
 }
 
 dependencies {
-    implementation 'com.anysoftkeyboard:api:2.0.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.core:core:1.12.0'
 }
