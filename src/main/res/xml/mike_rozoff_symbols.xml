@@ -43,24 +43,24 @@
         <Key android:keyLabel="!" android:codes="33"/>
         <Key android:keyLabel="?" android:codes="63"/>
         <Key android:keyLabel="+" android:codes="43"/>
-        <Key android:keyLabel="⌫" android:codes="@integer/key_code_delete" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+        <Key android:keyWidth="10%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true"/>
     </Row>
 
     <!-- Row 4: ABC, comma, spacebar, period, enter -->
     <Row>
         <Key android:keyLabel="ABC" android:keyWidth="15%p" android:codes="@integer/key_code_custom_keyboard_switch" android:keyEdgeFlags="left" ask:subKeyboard="c5b8c8a0-7b8f-4b8e-8b8f-7b8f4b8e8b8f"/>
         <Key android:keyLabel="," android:keyWidth="10%p" android:codes="44"/>
-        <Key android:keyLabel="␣" android:keyWidth="50%p" android:codes="32"/>
+        <Key android:keyLabel="␣" android:keyWidth="45%p" android:codes="32" android:isModifier="true"/>
         <Key android:keyLabel="." android:keyWidth="10%p" android:codes="46"/>
-        <Key android:keyLabel="↵" android:keyWidth="15%p" android:codes="@integer/key_code_enter" android:keyEdgeFlags="right"/>
+        <Key android:keyWidth="15%p" android:codes="@integer/key_code_enter" android:keyEdgeFlags="right"/>
     </Row>
 
     <!-- Row 5: Arrow keys -->
     <Row android:rowEdgeFlags="bottom">
-        <Key android:keyLabel="↑" android:keyWidth="25%p" android:codes="@integer/key_code_arrow_up" android:keyHeight="35dp" android:keyEdgeFlags="left"/>
-        <Key android:keyLabel="↓" android:keyWidth="25%p" android:codes="@integer/key_code_arrow_down" android:keyHeight="35dp"/>
-        <Key android:keyLabel="←" android:keyWidth="25%p" android:codes="@integer/key_code_arrow_left" android:keyHeight="35dp"/>
-        <Key android:keyLabel="→" android:keyWidth="25%p" android:codes="@integer/key_code_arrow_right" android:keyHeight="35dp" android:keyEdgeFlags="right"/>
+        <Key android:codes="@integer/key_code_arrow_up" android:keyWidth="25%p" android:keyHeight="35dp" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/key_code_arrow_down" android:keyWidth="25%p" android:keyHeight="35dp"/>
+        <Key android:codes="@integer/key_code_arrow_left" android:keyWidth="25%p" android:keyHeight="35dp"/>
+        <Key android:codes="@integer/key_code_arrow_right" android:keyWidth="25%p" android:keyHeight="35dp" android:keyEdgeFlags="right"/>
     </Row>
 
 </Keyboard>
