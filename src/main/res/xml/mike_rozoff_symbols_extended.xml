@@ -7,7 +7,7 @@
     ask:isSymbolsKeyboard="true">
 
     <!-- Row 1: Currency symbols and special characters -->
-    <Row>
+    <Row android:rowEdgeFlags="top">
         <Key android:keyLabel="£" android:keyWidth="15%p" android:codes="163" />
         <Key android:keyLabel="€" android:keyWidth="10%p" android:codes="8364" />
         <Key android:keyLabel="¥" android:keyWidth="10%p" android:codes="165" />
@@ -34,7 +34,7 @@
 
     <!-- Row 3: 123, backtick, semicolon, division, backslash, vertical bars, special symbols, backspace -->
     <Row>
-        <Key android:keyLabel="123" android:keyWidth="15%p" android:codes="@integer/key_code_mode_symbols" ask:keyboardLayout="@xml/mike_rozoff_symbols"/>
+        <Key android:keyLabel="123" android:keyWidth="15%p" android:codes="@integer/key_code_custom_keyboard_switch" ask:subKeyboard="c5b8c8a0-7b8f-4b8e-8b8f-7b8f4b8e8b9f"/>
         <Key android:keyLabel="`" android:keyWidth="10%p" android:codes="96" />
         <Key android:keyLabel=";" android:keyWidth="10%p" android:codes="59" />
         <Key android:keyLabel="÷" android:keyWidth="10%p" android:codes="247" />
@@ -47,7 +47,7 @@
 
     <!-- Row 4: ABC, spacebar, multiply, section, paragraph, degree, enter -->
     <Row>
-        <Key android:keyLabel="ABC" android:keyWidth="15%p" android:codes="@integer/key_code_mode_alphabet" />
+        <Key android:keyLabel="ABC" android:keyWidth="15%p" android:codes="@integer/key_code_custom_keyboard_switch" ask:subKeyboard="c5b8c8a0-7b8f-4b8e-8b8f-7b8f4b8e8b8f"/>
         <Key android:keyLabel="␣" android:keyWidth="30%p" android:codes="32" />
         <Key android:keyLabel="×" android:keyWidth="10%p" android:codes="215" />
         <Key android:keyLabel="§" android:keyWidth="10%p" android:codes="167" />
@@ -57,7 +57,7 @@
     </Row>
 
     <!-- Row 5: Arrow keys -->
-    <Row>
+    <Row android:rowEdgeFlags="bottom">
         <Key android:keyLabel="↑" android:keyWidth="25%p" android:codes="@integer/key_code_arrow_up" />
         <Key android:keyLabel="↓" android:keyWidth="25%p" android:codes="@integer/key_code_arrow_down" />
         <Key android:keyLabel="←" android:keyWidth="25%p" android:codes="@integer/key_code_arrow_left" />

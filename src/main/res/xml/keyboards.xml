@@ -6,5 +6,19 @@
         id="c5b8c8a0-7b8f-4b8e-8b8f-7b8f4b8e8b8f" 
         defaultDictionaryLocale="en" 
         description="@string/addon_description" 
+        index="0"/>
+    <Keyboard nameResId="@string/keyboard_name_symbols" 
+        iconResId="@mipmap/ic_launcher" 
+        layoutResId="@xml/mike_rozoff_symbols" 
+        id="c5b8c8a0-7b8f-4b8e-8b8f-7b8f4b8e8b9f" 
+        defaultDictionaryLocale="en" 
+        description="@string/addon_description_symbols" 
         index="1"/>
+    <Keyboard nameResId="@string/keyboard_name_symbols_extended" 
+        iconResId="@mipmap/ic_launcher" 
+        layoutResId="@xml/mike_rozoff_symbols_extended" 
+        id="c5b8c8a0-7b8f-4b8e-8b8f-7b8f4b8e8ba0" 
+        defaultDictionaryLocale="en" 
+        description="@string/addon_description_symbols_extended" 
+        index="2"/>
 </Keyboards>

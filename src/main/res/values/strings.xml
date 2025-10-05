@@ -5,4 +5,8 @@
     <string name="addon_description">A SwiftKey-inspired keyboard layout with 6 rows including arrow keys and extended symbols</string>
     <string name="author">Mike Rozoff</string>
     <string name="keyboard_name">Mike Rozoff Layout</string>
+    <string name="keyboard_name_symbols">Mike Rozoff Symbols</string>
+    <string name="addon_description_symbols">Mike Rozoff symbols layout with numbers and special characters</string>
+    <string name="keyboard_name_symbols_extended">Mike Rozoff Extended Symbols</string>
+    <string name="addon_description_symbols_extended">Mike Rozoff extended symbols layout with additional special characters</string>
 </resources>

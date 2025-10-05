@@ -20,62 +20,60 @@
     
     <!-- Row 2: QWERTY row with popup characters -->
     <Row>
-        <Key android:codes="113" android:keyLabel="q" android:popupCharacters="%" android:keyEdgeFlags="left"/>
-        <Key android:codes="119" android:keyLabel="w" android:popupCharacters="^"/>
-        <Key android:codes="101" android:keyLabel="e" android:popupCharacters="~"/>
-        <Key android:codes="114" android:keyLabel="r" android:popupCharacters="|"/>
-        <Key android:codes="116" android:keyLabel="t" android:popupCharacters="["/>
-        <Key android:codes="121" android:keyLabel="y" android:popupCharacters="]"/>
-        <Key android:codes="117" android:keyLabel="u" android:popupCharacters="&lt;"/>
-        <Key android:codes="105" android:keyLabel="i" android:popupCharacters="&gt;"/>
-        <Key android:codes="111" android:keyLabel="o" android:popupCharacters="{"/>
-        <Key android:codes="112" android:keyLabel="p" android:popupCharacters="}" android:keyEdgeFlags="right"/>
+        <Key android:codes="113" android:keyLabel="q" android:popupCharacters="%" ask:hintLabel="%" android:keyEdgeFlags="left"/>
+        <Key android:codes="119" android:keyLabel="w" android:popupCharacters="^" ask:hintLabel="^"/>
+        <Key android:codes="101" android:keyLabel="e" android:popupCharacters="~" ask:hintLabel="~"/>
+        <Key android:codes="114" android:keyLabel="r" android:popupCharacters="|" ask:hintLabel="|"/>
+        <Key android:codes="116" android:keyLabel="t" android:popupCharacters="[" ask:hintLabel="["/>
+        <Key android:codes="121" android:keyLabel="y" android:popupCharacters="]" ask:hintLabel="]"/>
+        <Key android:codes="117" android:keyLabel="u" android:popupCharacters="&lt;" ask:hintLabel="&lt;"/>
+        <Key android:codes="105" android:keyLabel="i" android:popupCharacters="&gt;" ask:hintLabel="&gt;"/>
+        <Key android:codes="111" android:keyLabel="o" android:popupCharacters="{" ask:hintLabel="{"/>
+        <Key android:codes="112" android:keyLabel="p" android:popupCharacters="}" ask:hintLabel="}" android:keyEdgeFlags="right"/>
     </Row>
     
     <!-- Row 3: ASDFGHJKL row (9 keys centered with gaps on sides) -->
     <Row>
-        <Key android:horizontalGap="5%p" android:codes="97" android:keyLabel="a" android:popupCharacters="@" android:keyEdgeFlags="left"/>
-        <Key android:codes="115" android:keyLabel="s" android:popupCharacters="#"/>
-        <Key android:codes="100" android:keyLabel="d" android:popupCharacters="&amp;"/>
-        <Key android:codes="102" android:keyLabel="f" android:popupCharacters="*"/>
-        <Key android:codes="103" android:keyLabel="g" android:popupCharacters="-"/>
-        <Key android:codes="104" android:keyLabel="h" android:popupCharacters="+"/>
-        <Key android:codes="106" android:keyLabel="j" android:popupCharacters="="/>
-        <Key android:codes="107" android:keyLabel="k" android:popupCharacters="("/>
-        <Key android:codes="108" android:keyLabel="l" android:popupCharacters=")" android:keyEdgeFlags="right"/>
+        <Key android:horizontalGap="5%p" android:codes="97" android:keyLabel="a" android:popupCharacters="@" ask:hintLabel="@" android:keyEdgeFlags="left"/>
+        <Key android:codes="115" android:keyLabel="s" android:popupCharacters="#" ask:hintLabel="#"/>
+        <Key android:codes="100" android:keyLabel="d" android:popupCharacters="&amp;" ask:hintLabel="&amp;"/>
+        <Key android:codes="102" android:keyLabel="f" android:popupCharacters="*" ask:hintLabel="*"/>
+        <Key android:codes="103" android:keyLabel="g" android:popupCharacters="-" ask:hintLabel="-"/>
+        <Key android:codes="104" android:keyLabel="h" android:popupCharacters="+" ask:hintLabel="+"/>
+        <Key android:codes="106" android:keyLabel="j" android:popupCharacters="=" ask:hintLabel="="/>
+        <Key android:codes="107" android:keyLabel="k" android:popupCharacters="(" ask:hintLabel="("/>
+        <Key android:codes="108" android:keyLabel="l" android:popupCharacters=")" ask:hintLabel=")" android:keyEdgeFlags="right"/>
     </Row>
     
     <!-- Row 4: Shift row with special width keys -->
     <Row>
         <Key android:codes="-1" android:keyWidth="15%p" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
-        <Key android:codes="122" android:keyLabel="z" android:popupCharacters="_"/>
-        <Key android:codes="120" android:keyLabel="x" android:popupCharacters="$"/>
-        <Key android:codes="99" android:keyLabel="c" android:popupCharacters="&quot;"/>
-        <Key android:codes="118" android:keyLabel="v" android:popupCharacters="'"/>
-        <Key android:codes="98" android:keyLabel="b" android:popupCharacters=":"/>
-        <Key android:codes="110" android:keyLabel="n" android:popupCharacters=";"/>
-        <Key android:codes="109" android:keyLabel="m" android:popupCharacters="/"/>
+        <Key android:codes="122" android:keyLabel="z" android:popupCharacters="_" ask:hintLabel="_"/>
+        <Key android:codes="120" android:keyLabel="x" android:popupCharacters="$" ask:hintLabel="$"/>
+        <Key android:codes="99" android:keyLabel="c" android:popupCharacters="&quot;" ask:hintLabel="&quot;"/>
+        <Key android:codes="118" android:keyLabel="v" android:popupCharacters="'" ask:hintLabel="'"/>
+        <Key android:codes="98" android:keyLabel="b" android:popupCharacters=":" ask:hintLabel=":"/>
+        <Key android:codes="110" android:keyLabel="n" android:popupCharacters=";" ask:hintLabel=";"/>
+        <Key android:codes="109" android:keyLabel="m" android:popupCharacters="/" ask:hintLabel="/"/>
         <Key android:keyWidth="15%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true"/>
     </Row>
     
     <!-- Row 5: Bottom row with special spacebar -->
     <Row>
-        <Key android:codes="@integer/key_code_mode_symbols" android:keyLabel="123" android:keyWidth="10%p" android:keyEdgeFlags="left" ask:keyboardLayout="@xml/mike_rozoff_symbols"/>
+        <Key android:codes="@integer/key_code_custom_keyboard_switch" android:keyLabel="123" android:keyWidth="10%p" android:keyEdgeFlags="left" ask:subKeyboard="c5b8c8a0-7b8f-4b8e-8b8f-7b8f4b8e8b9f"/>
         <Key android:codes="@integer/key_code_quick_text" android:keyWidth="10%p" ask:isFunctional="true" ask:longPressCode="@integer/key_code_quick_text_popup"/>
-        <Key android:codes="44" android:keyLabel="," ask:longPressCode="@integer/key_code_voice_input"/>
-        <Key android:codes="@integer/key_code_space" android:keyLabel=" " android:keyWidth="45%p"/>
-        <Key android:codes="46" android:keyLabel="." android:popupCharacters=",!?"/>
+        <Key android:codes="44" android:keyLabel="," ask:longPressCode="@integer/key_code_voice_input" ask:hintLabel="🎤"/>
+        <Key android:codes="32" android:keyLabel=" " android:keyWidth="45%p" android:isModifier="true"/>
+        <Key android:codes="46" android:keyLabel="." android:popupCharacters=",!?" ask:hintLabel=",!?" android:keyWidth="10%p"/>
         <Key android:keyWidth="15%p" android:codes="@integer/key_code_enter" android:keyEdgeFlags="right"/>
     </Row>
     
     <!-- Row 6: Arrow keys row -->
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="@integer/key_code_arrow_up" android:keyWidth="25%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="@integer/key_code_arrow_down" android:keyWidth="25%p"/>
-        <Key android:codes="@integer/key_code_arrow_left" android:keyWidth="25%p"/>
-        <Key android:codes="@integer/key_code_arrow_right" android:keyWidth="25%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="@integer/key_code_arrow_up" android:keyWidth="25%p" android:keyHeight="35dp" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/key_code_arrow_down" android:keyWidth="25%p" android:keyHeight="35dp"/>
+        <Key android:codes="@integer/key_code_arrow_left" android:keyWidth="25%p" android:keyHeight="35dp"/>
+        <Key android:codes="@integer/key_code_arrow_right" android:keyWidth="25%p" android:keyHeight="35dp" android:keyEdgeFlags="right"/>
     </Row>
-    
-    <!-- Next rows will be added here -->
     
 </Keyboard>

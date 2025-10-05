@@ -21,5 +21,8 @@
     <integer name="key_horizontal_gap">2</integer>
     <integer name="key_vertical_gap">2</integer>
     
+    <!-- Custom keyboard switching codes -->
+    <integer name="key_code_keyboard_layout_switch">-93</integer>
+    <integer name="key_code_custom_keyboard_switch">-9999</integer>
 
 </resources>
