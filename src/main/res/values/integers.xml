@@ -23,6 +23,6 @@
     
     <!-- Custom keyboard switching codes -->
     <integer name="key_code_keyboard_layout_switch">-93</integer>
-    <integer name="key_code_custom_keyboard_switch">-9999</integer>
+    <integer name="key_code_custom_keyboard_switch">-303</integer>
 
 </resources>

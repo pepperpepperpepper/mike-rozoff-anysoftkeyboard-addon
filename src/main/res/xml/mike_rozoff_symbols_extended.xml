@@ -32,7 +32,7 @@
 
     <!-- Row 3: 123, backtick, semicolon, division, backslash, vertical bars, special symbols, backspace -->
     <Row>
-        <Key android:keyLabel="123" android:keyWidth="15%p" android:codes="@integer/key_code_custom_keyboard_switch" ask:subKeyboard="c5b8c8a0-7b8f-4b8e-8b8f-7b8f4b8e8b9f"/>
+        <Key android:keyLabel="123" android:keyWidth="15%p" android:codes="@integer/key_code_custom_keyboard_switch" android:popupCharacters="mike-rozoff-symbols-001" ask:extra_key_data="mike-rozoff-symbols-001" ask:subKeyboard="mike-rozoff-symbols-001"/>
         <Key android:keyLabel="`" android:keyWidth="10%p" android:codes="96" />
         <Key android:keyLabel=";" android:keyWidth="10%p" android:codes="59" />
         <Key android:keyLabel="÷" android:keyWidth="10%p" android:codes="247" />
@@ -45,7 +45,7 @@
 
     <!-- Row 4: ABC, spacebar, multiply, section, paragraph, degree, enter -->
     <Row>
-        <Key android:keyLabel="ABC" android:keyWidth="15%p" android:codes="@integer/key_code_custom_keyboard_switch" android:keyEdgeFlags="left" ask:subKeyboard="c5b8c8a0-7b8f-4b8e-8b8f-7b8f4b8e8b8f"/>
+        <Key android:keyLabel="ABC" android:keyWidth="15%p" android:codes="@integer/key_code_custom_keyboard_switch" android:keyEdgeFlags="left" android:popupCharacters="mike-rozoff-main-001" ask:extra_key_data="mike-rozoff-main-001" ask:subKeyboard="mike-rozoff-main-001"/>
         <Key android:keyLabel="␣" android:keyWidth="30%p" android:codes="32" android:isModifier="true" />
         <Key android:keyLabel="×" android:keyWidth="10%p" android:codes="215" />
         <Key android:keyLabel="§" android:keyWidth="10%p" android:codes="167" />

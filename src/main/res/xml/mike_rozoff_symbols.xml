@@ -34,7 +34,7 @@
 
     <!-- Row 3: {=& combo key, ", *, ', :, /, !, ?, +, backspace -->
     <Row>
-        <Key android:keyLabel="{=&amp;" android:codes="@integer/key_code_custom_keyboard_switch" android:keyEdgeFlags="left" ask:subKeyboard="c5b8c8a0-7b8f-4b8e-8b8f-7b8f4b8e8ba0"/>
+        <Key android:keyLabel="{=&amp;" android:codes="@integer/key_code_custom_keyboard_switch" android:keyEdgeFlags="left" android:popupCharacters="mike-rozoff-symbols-ext-001" ask:extra_key_data="mike-rozoff-symbols-ext-001" ask:subKeyboard="mike-rozoff-symbols-ext-001"/>
         <Key android:keyLabel="&quot;" android:codes="34"/>
         <Key android:keyLabel="*" android:codes="42"/>
         <Key android:keyLabel="'" android:codes="39"/>
@@ -48,7 +48,7 @@
 
     <!-- Row 4: ABC, comma, spacebar, period, enter -->
     <Row>
-        <Key android:keyLabel="ABC" android:keyWidth="15%p" android:codes="@integer/key_code_custom_keyboard_switch" android:keyEdgeFlags="left" ask:subKeyboard="c5b8c8a0-7b8f-4b8e-8b8f-7b8f4b8e8b8f"/>
+        <Key android:keyLabel="ABC" android:keyWidth="15%p" android:codes="@integer/key_code_custom_keyboard_switch" android:keyEdgeFlags="left" android:popupCharacters="mike-rozoff-main-001" ask:extra_key_data="mike-rozoff-main-001" ask:subKeyboard="mike-rozoff-main-001"/>
         <Key android:keyLabel="," android:keyWidth="10%p" android:codes="44"/>
         <Key android:keyLabel="␣" android:keyWidth="45%p" android:codes="32" android:isModifier="true"/>
         <Key android:keyLabel="." android:keyWidth="10%p" android:codes="46"/>
